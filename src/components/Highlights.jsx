@@ -1,17 +1,41 @@
-import { Row } from 'react-bootstrap'
+import {Button, Row, Col} from 'react-bootstrap'
 import MenuCard from './MenuCard';
 
 const Highlights = () => {
     return(
         <article>
-            <h3>Specials</h3>
             <Row>
-                <MenuCard 
-                src="source" 
-                title="title"
-                text="text"
-                href="href"
-                hrefText="hrefText"
+                <Col>
+                <h3>Specials</h3>
+                </Col>
+            <Col>
+                <Button variant="dark" href="/">Button Link</Button>
+        </Col>
+            </Row>
+
+            <Row>
+                <MenuCard
+                    src="image.jpg"
+                    title="Delicious Dish"
+                    text="This is a wonderful dish."
+                    href="/order"
+                    hrefText="Order Now"
+                />
+
+                <MenuCard
+                    src="image.jpg"
+                    title="Delicious Dish"
+                    text="This is a wonderful dish."
+                    href="/order"
+                    hrefText="Order Now"
+                />
+
+                <MenuCard
+                    src="image.jpg"
+                    title="Delicious Dish"
+                    text="This is a wonderful dish."
+                    href="/order"
+                    hrefText="Order Now"
                 />
 
             </Row>

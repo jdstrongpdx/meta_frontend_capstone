@@ -17,8 +17,7 @@ const Hero = () => {
                 </article>
             </Col>
             <Col>
-                <img src="../../public/images/Logo.svg"
-                    alt="Little Lemon Logo"></img>
+                <img src="/images/Logo.svg" alt="Little Lemon Logo"></img>
             </Col>
         </Row>
     )

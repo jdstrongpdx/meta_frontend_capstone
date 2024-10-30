@@ -1,7 +1,35 @@
+import TestimonialCard from "./TestimonialCard";
+import {Row} from "react-bootstrap";
+
 const Testimonials = () => {
     return(
         <article>
-            <p>Testimonials text</p>
+            <Row>
+                <TestimonialCard
+                    stars="stars"
+                    src="source"
+                    profile="profile"
+                    review="review"
+                    />
+                <TestimonialCard
+                    stars="stars"
+                    src="source"
+                    profile="profile"
+                    review="review"
+                />
+                <TestimonialCard
+                    stars="stars"
+                    src="source"
+                    profile="profile"
+                    review="review"
+                />
+                <TestimonialCard
+                    stars="stars"
+                    src="source"
+                    profile="profile"
+                    review="review"
+                />
+            </Row>
         </article>
     )
 }
